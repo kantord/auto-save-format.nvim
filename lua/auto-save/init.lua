@@ -66,6 +66,8 @@ function M.save(buf)
         return
     end
 
+    -- autoformat buffer using LSP
+    vim.lsp.buf.format()
     callback("before_saving")
 
     if g.auto_save_abort == true then

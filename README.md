@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-	Automatically save your changes in NeoVim
+	Automatically formats your file using LSP & saves your changes in NeoVim 
 </p>
 
 <p align="center">
@@ -14,6 +14,17 @@
 	<a href="https://github.com/Pocco81/auto-save.nvim">
 		<img alt="Repo Size" src="https://img.shields.io/github/repo-size/Pocco81/auto-save.nvim?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41"/></a>
 </p>
+
+&nbsp;
+
+### 📢 About this fork
+
+This fork exists because the original plugin is unmaintained and does not properly executes
+callbacks. I created this fork to make the plugin work well with LSP-based autoformatting.
+
+It does not require any configuration, it will autoformat files on saves automatically.
+
+If you don't want autoformatting, simply use the original repo.
 
 &nbsp;
 
